@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="mainContainer">
+        <div class="nav">
+         <h2><span class="t">T</span>ASK<span class="list">  LIST</span></h2>
+        
+         <button id="addbutton" onclick="addtask()"><span class="plus">+</span> <span class="add">ADD ITEMS </span></button>
+         </div>
+        
+         <div id="addnewtask"></div>
+        
+    </div>
+
+
+    <div id="popup" title="Add task box">
+        <h3 id="heading">ADD NEW LIST</h3>
+        <center>
+            <input type="text" name="inputTask" id="input" placeholder="Add New Task">
+            <br>
+            <br>
+
+            <div>
+                <button id="addButtonPopUpScreen" onclick="AddNewTask()">ADD</button>         <button id="closeButtonPopUpScreen" onclick="ClosePopUpScreen()">CLOSE</button>
+            </div>
+        </center>
+    </div>
+
+    <div id="popUpForCountry" title="Add Country">
+        <h3 id="HeadingForCountry">ADD NEW ACTIVITY</h3>
+        
+
+        <center>
+            <input type="text" name="inputTask" id="inputForCountry" placeholder="Add New Activity">
+            <br>
+            <br>
+
+            <div>
+                <button id="AddPopupScreenForCountry">ADD</button><button id="closeButtonForCountry" onclick="CloseCountry()">CLOSE</button>
+            </div>
+        </center>
+        
+       
+
+    </div>
+        
+    <script src="./todo.js"></script>
+</body>
+</html>

@@ -1,0 +1,238 @@
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.list{
+    font-weight: lighter;
+}
+.t{
+    color: orange;
+    font-family: cursive;
+}
+h2{
+    font-family: Cursive;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size:25px;
+}
+#addbutton{
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: black;
+    position: relative;
+    right: -70%;
+    top: 25px;
+    height: 50px;
+    border-style: none;
+    width: 150px;
+}
+#addbutton:hover{
+    border-radius: 10px;
+   
+    border: 3px solid white;
+}
+.plus{
+    color: aqua;
+    font-size: 27px;
+}
+#addnewtask{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.DynamicallyAddedFlexItems{
+    margin: 2.4%;
+}
+#popup{
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  height: 40%;
+  margin-left: 30%;
+  position: absolute;
+  top: 30%;
+  background-image: url(./shinchan-dp-67.png);
+  text-align: center;
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  box-shadow: 2px 2px #02293d;
+
+
+}
+#popup:hover{
+    box-shadow: 0px 1px 10px 0px rgb(235, 225, 225);
+
+}
+#heading{
+    color: orangered;
+    font-size: 35px;
+    text-shadow: 2px 2px #02293d;
+    
+}
+#input{
+    border: 2px solid grey;
+    width: 75%;
+    height: 37px;
+    border-radius: 5px;
+    position: relative;
+    
+    
+}
+#input:hover{
+    border: 2px solid black;
+}
+#addButtonPopUpScreen{
+    position: relative;
+    top:5px;
+    left: -40px;
+    background-color:red;
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    text-shadow: 2px 2px #02293d;
+
+}
+#addButtonPopUpScreen:hover{
+    background-color: aqua;
+    color: brown;
+}
+
+
+#closeButtonPopUpScreen{
+    border-style: none;
+    background-color:orange;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    top:5px;
+    left: 40px;
+    font-weight: bolder;
+    font-size: 15px;
+    text-shadow: 2px 2px #02293d;
+
+}
+#closeButtonPopUpScreen:hover{
+    background-color: cadetblue;
+    color: chocolate;
+}
+#popUpForCountry{
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  height: 40%;
+  margin-left: 30%;
+  position: absolute;
+  top: 30%;
+  background-image: url(./images.png );
+  text-align: center;
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  box-shadow: 2px 2px #02293d;
+  background-size: cover;
+  
+}
+
+#popUpForCountry:hover{
+    box-shadow: 0px 1px 10px 0px rgb(235, 225, 225);
+
+}
+
+#HeadingForCountry{
+    color: orangered;
+    font-size: 35px;
+    text-shadow: 2px 2px #02293d;
+}
+
+#inputForCountry{
+
+    border: 2px solid grey;
+    width: 75%;
+    height: 37px;
+    border-radius: 5px;
+    position: relative;
+}
+
+#inputForCountry:hover{
+   
+        border: 2px solid black;
+}
+
+#AddPopupScreenForCountry{
+    position: relative;
+    top:5px;
+    left: -40px;
+    background-color:rgb(220, 13, 106);
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    text-shadow: 2px 2px #02293d;
+}
+#AddPopupScreenForCountry:hover{
+    background-color: aqua;
+    color: brown;
+}
+
+#closeButtonForCountry{
+    border-style: none;
+    background-color:orange;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    top:5px;
+    left: 40px;
+    font-weight: bolder;
+    font-size: 15px;
+    text-shadow: 2px 2px #02293d;
+
+}
+
+#closeButtonForCountry:hover{
+    background-color: cadetblue;
+    color: chocolate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
