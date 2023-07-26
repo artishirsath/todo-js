@@ -1,5 +1,6 @@
 function addtask(){
     document.getElementById('popup').style.display='block';
+    document.getElementById('NoItems').style.display='none';
     document.getElementById('mainContainer').style.filter= 'blur(8px)';
 }
 function CloseCountry(){
@@ -55,7 +56,7 @@ function AddNewTask(){
 
   newCardInParent.style.position='relative';
 
-  // realted to heading that is added 
+  // style for heading
   cardHeading.style.textAlign='center';
   cardHeading.style.color="red";
   cardHeading.style.font="Monospace";
@@ -63,7 +64,7 @@ function AddNewTask(){
   cardHeading.style.textShadow="2px 2px grey";
 
 
-  // related to delete and plus buton 
+  // style for delete and plus buton 
 
   deleteButtonInsideTask.style.width='15%';
   deleteButtonInsideTask.style.height='10%';
@@ -71,8 +72,8 @@ function AddNewTask(){
   deleteButtonInsideTask.style.left='10px';
   deleteButtonInsideTask.style.position='absolute';
   deleteButtonInsideTask.style.bottom='10px';
- // deleteButtonInsideTask.style.backgroundImage="url('unnamed.png')";
-  deleteButtonInsideTask.style.color='aqua';
+ //deleteButtonInsideTask.innerHTML=document.getElementById('img1');
+ deleteButtonInsideTask.style.color='aqua';
   deleteButtonInsideTask.style.fontWeight='bolder';
   deleteButtonInsideTask.style.fontSize='25px';
   deleteButtonInsideTask.style.borderRadius='5px';

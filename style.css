@@ -33,6 +33,21 @@ h2{
     border-style: none;
     width: 150px;
 }
+#NoItems{
+  color: white;
+  text-shadow: 2px 2px tomato;
+  font-size: 1.90em;
+  padding-left: 7%;
+  font-family: cursive;
+
+}
+#img1{
+    display: none;
+
+}
+#img2{
+    display: none;
+}
 #addbutton:hover{
     border-radius: 10px;
    
